@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>转生异界：我与她们的命运攻略</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #0a0a12;
+      color: #e8e0d4;
+      min-height: 100vh;
+      background-image: radial-gradient(ellipse at 20% 50%, #1a1028 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 20%, #0d1a2e 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 80%, #1a0a20 0%, transparent 50%);
+    }
+    .hero {
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(180deg, rgba(20,10,40,0.9) 0%, rgba(10,10,18,0) 100%);
+    }
+    .hero-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      background: rgba(180,120,200,0.15);
+      border: 1px solid rgba(180,120,200,0.3);
+      border-radius: 20px;
+      font-size: 12px;
+      color: #b478c8;
+      letter-spacing: 2px;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 6vw, 52px);
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 0 40px rgba(180,120,200,0.4);
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .hero-genre {
+      font-size: 14px;
+      color: #8b7aa0;
+      letter-spacing: 4px;
+      margin-bottom: 30px;
+    }
+    .hero-desc {
+      max-width: 600px;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #a090b8;
+      margin-bottom: 40px;
+    }
+    .btn-read {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 36px;
+      background: linear-gradient(135deg, #7c3aed, #a855f7);
+      color: #fff;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 4px 20px rgba(124,58,237,0.4);
+    }
+    .btn-read:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(124,58,237,0.6); }
+    .chapters-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: linear-gradient(180deg, #7c3aed, #a855f7);
+      border-radius: 2px;
+    }
+    .chapter-list { display: flex; flex-direction: column; gap: 12px; }
+    .chapter-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+    .chapter-card:hover {
+      background: rgba(124,58,237,0.08);
+      border-color: rgba(124,58,237,0.3);
+      transform: translateX(4px);
+    }
+    .ch-left { display: flex; flex-direction: column; gap: 4px; }
+    .ch-num { font-size: 12px; color: #7c3aed; font-weight: 600; }
+    .ch-title { font-size: 16px; color: #e8e0d4; font-weight: 500; }
+    .ch-words { font-size: 12px; color: #6b6080; margin-top: 4px; }
+    .ch-arrow { color: #4a3a60; font-size: 18px; }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #4a3a60;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-badge">异世界 · 修仙 · 后宫</div>
+  <h1>转生异界<br>我与她们的命运攻略</h1>
+  <div class="hero-genre">玄幻修仙 · 都市重生</div>
+  <p class="hero-desc">
+    渡劫期的他本应飞升仙界，却遭天劫反噬，魂飞魄散。<br>
+    再睁眼，竟重生为顾家废物三少爷……<br>
+    这一世，他携命格图鉴，誓要改写命运！
+  </p>
+  <a href="chapter1.html" class="btn-read">
+    开始阅读 →
+  </a>
+</div>
+
+<div class="chapters-section">
+  <div class="section-title">目录</div>
+  <div class="chapter-list">
+    <a href="chapter2.html" class="chapter-card">
+      <div class="ch-left">
+        <div class="ch-num">第2章</div>
+        <div class="ch-title">夜探废墟</div>
+        <div class="ch-words">约 4237 字 · 已完结</div>
+      </div>
+      <div class="ch-arrow">→</div>
+    </a>
+    <a href="chapter1.html" class="chapter-card">
+      <div class="ch-left">
+        <div class="ch-num">第1章</div>
+        <div class="ch-title">残魂初醒</div>
+        <div class="ch-words">约 2921 字 · 含插画</div>
+      </div>
+      <div class="ch-arrow">→</div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  由 小优AI · Inkos 自动生成 · 2026
+</footer>
+
+</body>
+</html>
